@@ -2,7 +2,7 @@
 
 function onScanSuccess(decodedText, decodedResult) {
     console.log(`Code scanned = ${decodedText}`, decodedResult);
-    
+    alert('Codigo Leido');
 
 }
 var html5QrcodeScanner = new Html5QrcodeScanner(
